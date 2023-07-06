@@ -1,3 +1,53 @@
-button .id{
-    color:  rgb(140, 222, 17);
-}
+#movie-information{
+    margin-left: 20px;
+    }
+    
+    header{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    body{
+        background-color: aquamarine;
+    }
+    
+    #buy-ticket-btn{
+        background-color: blue;
+        color: antiquewhite;
+        padding: 9px 21px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+        border: 1px solid white;
+    }
+    
+    #buy-ticket-btn:hover{
+        background-color: darkred;
+    }
+    
+    #movie-information h2{
+        font-size: 23px;
+        margin-bottom: 10px;
+        
+    }
+    #movie-information p{
+        margin-bottom: 7px;
+        font-size: 15px;
+        
+    
+    }
+    
+    #movie-details{
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: 16px;
+    
+    }
+    
+    #posters{
+        width: 240px;
+        box-shadow: 0 0 9px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        height: 370px;
+        object-fit: cover;
+    }
